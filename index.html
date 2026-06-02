@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bhavesh Sharma — AI/ML Engineer & GenAI Developer</title>
+  <meta name="description"
+    content="Bhavesh Sharma is an AI/ML Engineer and GenAI Developer specializing in LLM engineering, RAG pipelines, and production-grade AI systems." />
+  <meta name="keywords" content="Bhavesh Sharma, AI/ML Engineer, GenAI Developer, LLM, RAG, FastAPI, Python" />
+  <meta property="og:title" content="Bhavesh Sharma — AI/ML Engineer" />
+  <meta property="og:description" content="Building AI that works in the real world." />
+  <meta property="og:type" content="website" />
+
+  <!--
+    PROFESSIONAL FONTS:
+    Plus Jakarta Sans  → headings (modern, clean, not funky)
+    Inter              → ALL body text (most readable sans-serif on screen)
+    JetBrains Mono     → only for code labels, tags, nav links
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet" />
+
+  <!-- Three.js r128 -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <!-- Scroll progress bar -->
+  <div id="scroll-progress"></div>
+
+  <!-- Cursor -->
+  <div id="cursor"></div>
+  <div id="cursor-ring"></div>
+
+  <!-- Three.js canvas -->
+  <canvas id="bg-canvas"></canvas>
+  <div class="glow-orb"></div>
+
+  <!-- ═══════════════ NAV ═══════════════ -->
+  <nav>
+    <a href="#hero" class="nav-logo">{ bs.ai }</a>
+    <ul class="nav-links">
+      <li><a href="#about" data-sec="about">About</a></li>
+      <li><a href="#skills" data-sec="skills">Skills</a></li>
+      <li><a href="#experience" data-sec="experience">Experience</a></li>
+      <li><a href="#projects" data-sec="projects">Projects</a></li>
+      <li><a href="#contact" data-sec="contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="content">
+
+    <!-- ═══════════════ HERO ═══════════════ -->
+    <section id="hero">
+      <div class="hero-content">
+
+        <div class="hero-eyebrow">
+          <span class="dot-live"></span>
+          Available for opportunities
+        </div>
+
+        <h1 class="hero-name">Bhavesh <span class="hero-name-accent">Sharma</span></h1>
+
+        <p class="hero-role">
+          <strong>AI/ML Engineer</strong> &nbsp;·&nbsp; GenAI Developer
+        </p>
+
+        <p class="hero-desc">
+          CS (AIML) graduate building production-grade AI systems.
+          Specializing in LLM engineering, RAG pipelines, and multi-agent
+          architectures — turning complex AI research into real, working products.
+        </p>
+
+        <div class="hero-ctas">
+          <a href="#projects" class="btn-fill" id="view-projects-btn">View Projects ↓</a>
+          <a href="#contact" class="btn-ghost" id="lets-talk-btn">Let's Talk</a>
+        </div>
+
+        <div class="hero-socials">
+          <a href="https://github.com/bhavesh2004-dev" target="_blank" rel="noopener noreferrer">
+            GitHub <span>↗</span>
+          </a>
+          <a href="https://www.linkedin.com/in/bhaveshsharma19/" target="_blank" rel="noopener noreferrer">
+            LinkedIn <span>↗</span>
+          </a>
+          <a href="mailto:sharmabhavesh191@gmail.com">
+            Email <span>↗</span>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+
+
+    <!-- ═══════════════ ABOUT ═══════════════ -->
+    <section id="about">
+      <div class="wrap">
+        <div class="about-grid">
+
+          <!-- LEFT -->
+          <div>
+            <div class="label reveal">About me</div>
+            <h2 class="section-title reveal">Building AI that works<br />in the real world</h2>
+
+            <div class="about-text">
+              <p class="reveal d1">
+                B-Tech CS (AIML) Graduate from <strong>P.P. Savani University</strong> with hands-on experience in
+                Generative AI, LLM engineering, RAG pipelines, and production-grade AI systems.
+                Completed a 6-month internship at <strong>Enacton Technology</strong>.
+              </p>
+              <p class="reveal d2">
+                I enjoy building across the full AI stack — from RAG pipelines and
+                multi-agent systems to backend APIs and automation workflows.
+                Also passionate about <strong>Product Management</strong> and bridging
+                technical depth with user-focused thinking.
+              </p>
+            </div>
+
+            <div class="about-chips reveal d3">
+              <span class="chip">Good English Communication</span>
+              <span class="chip">Fast Adaptability</span>
+              <span class="chip">Product Mindset</span>
+              <span class="chip">Prompt Engineering</span>
+              <span class="chip">Team Collaborator</span>
+            </div>
+          </div>
+
+          <!-- RIGHT -->
+          <div>
+            <div class="stats-grid">
+              <div class="stat-card reveal d1" data-val="6">
+                <div class="stat-num">6</div>
+                <div class="stat-lbl">Months internship</div>
+              </div>
+              <div class="stat-card reveal d2" data-val="6+">
+                <div class="stat-num">6+</div>
+                <div class="stat-lbl">AI projects shipped</div>
+              </div>
+              <div class="stat-card reveal d3" data-val="8.00">
+                <div class="stat-num">8.00</div>
+                <div class="stat-lbl">CGPA · B.Tech AIML</div>
+              </div>
+              <div class="stat-card reveal d4" data-val="2026">
+                <div class="stat-num">2026</div>
+                <div class="stat-lbl">Graduate · Available</div>
+              </div>
+            </div>
+            <div class="edu-card reveal d5">
+              <div class="edu-uni">P.P. Savani University, Surat</div>
+              <div class="edu-deg">B.Tech — CS Engineering (AIML)</div>
+              <div class="edu-period">2022–2026 &nbsp;|&nbsp; CGPA: 8.00</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════ SKILLS ═══════════════ -->
+    <section id="skills">
+      <div class="wrap">
+        <div class="label reveal">Skills</div>
+        <h2 class="section-title reveal">What I bring to the table</h2>
+
+        <div class="skills-grid">
+          <div class="skill-card reveal-left d1">
+            <div class="skill-cat">AI &amp; LLM Engineering</div>
+            <div class="pills">
+              <span class="pill">Prompt Engineering</span>
+              <span class="pill">RAG</span>
+              <span class="pill">LLM APIs</span>
+              <span class="pill">OpenAI Agents SDK</span>
+              <span class="pill">Multi-Agent Systems</span>
+              <span class="pill">OpenRouter</span>
+              <span class="pill">Hugging Face</span>
+              <span class="pill">LoRA / QLoRA</span>
+            </div>
+          </div>
+
+          <div class="skill-card reveal-right d1">
+            <div class="skill-cat">Backend &amp; Infrastructure</div>
+            <div class="pills">
+              <span class="pill">Python</span>
+              <span class="pill">FastAPI</span>
+              <span class="pill">Streamlit</span>
+              <span class="pill">Firebase</span>
+              <span class="pill">MongoDB</span>
+              <span class="pill">PostgreSQL</span>
+              <span class="pill">MySQL</span>
+              <span class="pill">Docker</span>
+            </div>
+          </div>
+
+          <div class="skill-card reveal-left d2">
+            <div class="skill-cat">AI Retrieval &amp; Data</div>
+            <div class="pills">
+              <span class="pill">FAISS</span>
+              <span class="pill">Pinecone</span>
+              <span class="pill">LlamaIndex</span>
+              <span class="pill">LlamaCloud</span>
+              <span class="pill">Embeddings</span>
+              <span class="pill">EasyOCR</span>
+              <span class="pill">Vector DBs</span>
+            </div>
+          </div>
+
+          <div class="skill-card reveal-right d2">
+            <div class="skill-cat">Dev Tools &amp; Frontend</div>
+            <div class="pills">
+              <span class="pill">Git &amp; GitHub</span>
+              <span class="pill">React.js</span>
+              <span class="pill">Next.js</span>
+              <span class="pill">n8n</span>
+              <span class="pill">Playwright</span>
+              <span class="pill">Scikit-learn</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="label reveal" style="margin-bottom:1.5rem;">Beyond the code</div>
+        <div class="soft-row">
+          <div class="soft-item reveal d1"> English Communication</div>
+          <div class="soft-item reveal d2"> Fast Adaptability</div>
+          <div class="soft-item reveal d3"> Prompt Mindset</div>
+          <div class="soft-item reveal d4"> Product Management</div>
+          <div class="soft-item reveal d5"> Problem Solver</div>
+          <div class="soft-item reveal d6"> Team Collaborator</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════ EXPERIENCE ═══════════════ -->
+    <section id="experience">
+      <div class="wrap exp-wrap">
+        <div class="label reveal">Experience</div>
+        <h2 class="section-title reveal">Where I've built</h2>
+
+        <div class="exp-card reveal-scale">
+          <div class="exp-hd">
+            <div>
+              <div class="exp-role">AI/ML Engineer Intern</div>
+              <div class="exp-co">Enacton Technology</div>
+            </div>
+            <div class="exp-badge">6 Months</div>
+          </div>
+
+          <ul class="exp-list">
+            <li>Built LLM-powered backend systems and integrated AI APIs into production workflows</li>
+            <li>Developed Python/FastAPI services supporting RAG pipelines and intelligent automation</li>
+            <li>Worked with multi-agent architectures, embedding models, and vector databases</li>
+            <li>Designed n8n automation workflows for end-to-end AI task pipelines</li>
+            <li>Debugged and iterated on production AI systems within a collaborative team environment</li>
+          </ul>
+
+          <div class="tech-row">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">FastAPI</span>
+            <span class="tech-tag">LLM APIs</span>
+            <span class="tech-tag">RAG</span>
+            <span class="tech-tag">n8n</span>
+            <span class="tech-tag">LlamaIndex</span>
+            <span class="tech-tag">Vector DBs</span>
+            <span class="tech-tag">Multi-Agent</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════ PROJECTS ═══════════════ -->
+    <section id="projects">
+      <div class="wrap">
+        <div class="label reveal">Projects</div>
+        <h2 class="section-title reveal">Things I've built</h2>
+
+        <div class="proj-grid">
+
+          <!-- 01 -->
+          <div class="proj-card reveal-left d1">
+            <div class="proj-img">
+              <img src="img_rag.png" alt="College RAG Chatbot" loading="lazy" />
+            </div>
+            <div class="proj-body">
+              <div class="proj-meta">
+                <span class="proj-num">01 / RAG SYSTEM</span>
+                <span class="badge badge-done">Completed</span>
+              </div>
+              <h3 class="proj-title">College Information RAG Chatbot</h3>
+              <p class="proj-desc">AI-powered RAG chatbot platform providing accurate answers from document knowledge
+                sources. Converts document content to vector embeddings in a FAISS vector database for semantic search,
+                generating context-aware replies with built-in Text-to-Speech audio.</p>
+              <ul class="proj-hl">
+                <li>FAISS database vector chunk matching</li>
+                <li>Context-grounded LLM response generation</li>
+                <li>Seamless Text-to-Speech audio readout</li>
+              </ul>
+              <div class="proj-tags">
+                <span class="proj-tag">Python</span><span class="proj-tag">LangChain</span>
+                <span class="proj-tag">OpenAI</span><span class="proj-tag">FAISS</span>
+                <span class="proj-tag">Streamlit</span>
+              </div>
+              <a href="https://github.com/bhavesh2004-dev/college-information-rag-chatbot.git" target="_blank"
+                rel="noopener noreferrer" class="proj-link">→ GitHub</a>
+            </div>
+          </div>
+
+          <!-- 02 -->
+          <div class="proj-card reveal-right d1">
+            <div class="proj-img">
+              <img src="img_notepad.png" alt="Smart AI Notepad" loading="lazy" />
+            </div>
+            <div class="proj-body">
+              <div class="proj-meta">
+                <span class="proj-num">02 / PRODUCTIVITY</span>
+                <span class="badge badge-done">Completed</span>
+              </div>
+              <h3 class="proj-title">Smart AI Notepad</h3>
+              <p class="proj-desc">A smart notepad application that combines robust note-taking with local LLM-based AI
+                assistance. Allows users to write, manage, and interact with notes using locally hosted language models
+                for complete offline AI execution.</p>
+              <ul class="proj-hl">
+                <li>Local LLM-based offline AI assistance</li>
+                <li>Conversational notepad content interaction</li>
+                <li>Lightweight productivity and real-time execution</li>
+              </ul>
+              <div class="proj-tags">
+                <span class="proj-tag">Python</span><span class="proj-tag">Local LLMs</span>
+                <span class="proj-tag">AI Assistant</span><span class="proj-tag">Productivity</span>
+              </div>
+              <a href="https://github.com/bhavesh2004-dev/smart-ai-notepad.git" target="_blank"
+                rel="noopener noreferrer" class="proj-link">→ GitHub</a>
+            </div>
+          </div>
+
+          <!-- 03 -->
+          <div class="proj-card reveal-left d2">
+            <div class="proj-img">
+              <img src="img_analyzer.png" alt="AI Company Analyzer" loading="lazy" />
+            </div>
+            <div class="proj-body">
+              <div class="proj-meta">
+                <span class="proj-num">03 / WEB INTELLIGENCE</span>
+                <span class="badge badge-done">Completed</span>
+              </div>
+              <h3 class="proj-title">AI Company Analyzer</h3>
+              <p class="proj-desc">An AI-powered analysis platform that automatically extracts structured business
+                insights from websites and generates outreach proposals. Utilizes FastAPI and Firebase caching for
+                optimized performance.</p>
+              <ul class="proj-hl">
+                <li>Intelligent web scraping website parsing</li>
+                <li>Structured JSON data insight generation</li>
+                <li>Firebase caching for fast proposal automation</li>
+              </ul>
+              <div class="proj-tags">
+                <span class="proj-tag">FastAPI</span><span class="proj-tag">Playwright</span>
+                <span class="proj-tag">Firebase</span><span class="proj-tag">OpenAI</span>
+              </div>
+              <a href="https://github.com/bhavesh2004-dev/ai-company-analyzer-backend.git" target="_blank"
+                rel="noopener noreferrer" class="proj-link">→ GitHub</a>
+            </div>
+          </div>
+
+          <!-- 04 -->
+          <div class="proj-card reveal-right d2">
+            <div class="proj-img">
+              <img src="img_sentiment.png" alt="Long-Text Sentiment Analysis" loading="lazy" />
+            </div>
+            <div class="proj-body">
+              <div class="proj-meta">
+                <span class="proj-num">04 / NLP</span>
+                <span class="badge badge-done">Completed</span>
+              </div>
+              <h3 class="proj-title">Long-Text Sentiment Analysis</h3>
+              <p class="proj-desc">Transformer-based sentiment analysis system designed to process long-form text beyond
+                normal token limitations using chunking, aggregation techniques, and interactive Streamlit charts.</p>
+              <ul class="proj-hl">
+                <li>Token chunking and aggregation algorithms</li>
+                <li>Hugging Face Transformer pipeline models</li>
+                <li>Interactive Streamlit dashboard & CLI support</li>
+              </ul>
+              <div class="proj-tags">
+                <span class="proj-tag">Python</span><span class="proj-tag">Hugging Face</span>
+                <span class="proj-tag">Transformers</span><span class="proj-tag">Streamlit</span>
+              </div>
+              <a href="https://github.com/bhavesh2004-dev/long-text-sentiment-analysis.git" target="_blank"
+                rel="noopener noreferrer" class="proj-link">→ GitHub</a>
+            </div>
+          </div>
+
+        </div><!-- /proj-grid -->
+
+        <div class="see-more-wrap reveal">
+          <button id="see-more-btn">+ See More Projects</button>
+        </div>
+
+        <!-- hidden -->
+        <div class="proj-extra" id="proj-extra">
+
+          <!-- 05 -->
+          <div class="proj-card">
+            <div class="proj-img">
+              <img src="img_canvas.png" alt="Air Canvas Hand-Gesture Drawing" loading="lazy" />
+            </div>
+            <div class="proj-body">
+              <div class="proj-meta">
+                <span class="proj-num">05 / COMPUTER VISION</span>
+                <span class="badge badge-done">Completed</span>
+              </div>
+              <h3 class="proj-title">Air Canvas — Hand-Gesture Drawing</h3>
+              <p class="proj-desc">Interactive hand gesture-controlled drawing canvas using computer vision. Features
+                optimized landmark tracking with custom tolerance zones and mode-stabilizing hysteresis.</p>
+              <ul class="proj-hl">
+                <li>Real-time drawing via index finger tracking</li>
+                <li>Open-palm erase & closed-fist idle states</li>
+                <li>Keyboard controls for stroke and debug info</li>
+              </ul>
+              <div class="proj-tags">
+                <span class="proj-tag">OpenCV</span><span class="proj-tag">MediaPipe</span>
+                <span class="proj-tag">Python</span><span class="proj-tag">Computer Vision</span>
+              </div>
+              <a href="https://github.com/bhavesh2004-dev/Drawing-Canvas.git" target="_blank" rel="noopener noreferrer"
+                class="proj-link">→ GitHub</a>
+            </div>
+          </div>
+
+          <!-- 06 — n8n Automation -->
+          <div class="proj-card">
+            <div class="proj-img" style="position: relative;">
+              <img src="img_n8n.png" alt="n8n Interview Automation" loading="lazy" />
+              <!-- Play / Watch button overlay -->
+              <button class="video-play-btn" id="n8n-play-btn" aria-label="Watch n8n Workflow Demo">
+                <span class="play-icon">▶</span>
+                <span class="play-label">Watch Workflow</span>
+              </button>
+            </div>
+            <div class="proj-body">
+              <div class="proj-meta">
+                <span class="proj-num">06 / AUTOMATION</span>
+                <span class="badge badge-done">Completed</span>
+              </div>
+              <h3 class="proj-title">n8n Interview Question Automation</h3>
+              <p class="proj-desc">End-to-end AI workflow that auto-generates structured interview questions using LLM
+                pipelines and saves outputs to Google Sheets — completely hands-free.</p>
+              <ul class="proj-hl">
+                <li>n8n workflow orchestration</li>
+                <li>LLM-generated structured question banks</li>
+                <li>Direct Google Sheets integration</li>
+              </ul>
+              <div class="proj-tags">
+                <span class="proj-tag">n8n</span><span class="proj-tag">LLM</span>
+                <span class="proj-tag">Google Sheets</span><span class="proj-tag">Automation</span>
+              </div>
+              <button class="proj-link" id="n8n-card-play-btn"
+                style="background:none; border:none; font-family:inherit; font-size:inherit; font-weight:inherit; color:var(--accent); cursor:none; display:inline-flex; align-items:center; gap:0.3rem;">→
+                Watch Workflow</button>
+            </div>
+          </div>
+
+        </div><!-- /proj-extra -->
+      </div>
+    </section>
+
+    <!-- ═══════════════ CERTS ═══════════════ -->
+    <section id="certs">
+      <div class="wrap">
+        <div class="label reveal">Certifications &amp; Awards</div>
+        <h2 class="section-title reveal">Recognition</h2>
+        <div class="certs-grid">
+          <div class="cert-card reveal-left d1">
+            <div class="cert-icon">🎓</div>
+            <div class="cert-name">Python for Everybody</div>
+            <div class="cert-by">Coursera · University of Michigan</div>
+          </div>
+          <div class="cert-card reveal-right d2">
+            <div class="cert-icon">🏆</div>
+            <div class="cert-name">Odoo Hackathon 2025</div>
+            <div class="cert-by">Project: ReWear — Community Clothing Exchange</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════ CONTACT ═══════════════ -->
+    <section id="contact">
+      <div class="contact-inner reveal">
+
+        <div class="label" style="justify-content:center;">Contact</div>
+        <h2 class="section-title" style="text-align:center; margin-bottom:0.6rem;">Let's build something intelligent
+        </h2>
+        <p class="contact-sub">Open to AI/ML roles, GenAI projects, and product opportunities. Available for remote work
+          globally.</p>
+
+        <!-- Quick links -->
+        <div class="contact-links" style="margin-bottom:2.5rem;">
+          <a href="mailto:sharmabhavesh191@gmail.com" class="c-link"> Email ↗</a>
+          <a href="tel:+917600563481" class="c-link">  Phone ↗</a>
+          <a href="https://www.linkedin.com/in/bhaveshsharma19" target="_blank" rel="noopener noreferrer"
+            class="c-link"> LinkedIn ↗</a>
+          <a href="https://github.com/bhavesh2004-dev?tab=repositories" target="_blank" rel="noopener noreferrer"
+            class="c-link"> GitHub ↗</a>
+        </div>
+
+        <!-- Toggle Button -->
+        <button id="contact-toggle-btn" class="contact-cta" aria-expanded="false">
+          Say Hello →
+        </button>
+
+        <!-- Collapsible Form Panel -->
+        <div id="contact-form-panel" class="contact-form-panel" aria-hidden="true">
+          <form id="recruiter-form">
+
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label" for="c-name">Your Name *</label>
+                <input class="form-input" type="text" id="c-name" name="name" placeholder="John Smith" required />
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="c-email">Email Address *</label>
+                <input class="form-input" type="email" id="c-email" name="email" placeholder="john@company.com"
+                  required />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="c-phone">Phone / WhatsApp</label>
+              <input class="form-input" type="tel" id="c-phone" name="phone" placeholder="+91 98765 43210" />
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="c-msg">Message *</label>
+              <textarea class="form-input form-textarea" id="c-msg" name="message"
+                placeholder="Tell me about the role or opportunity…" required rows="5"></textarea>
+            </div>
+
+            <div class="form-actions">
+              <button type="submit" class="form-submit" id="form-submit-btn">Send Message →</button>
+              <button type="button" id="form-close-btn" class="form-close-btn">Cancel</button>
+            </div>
+
+            <p class="form-note">Submits instantly in the background. Falls back to your local email client if needed.
+            </p>
+          </form>
+
+          <div id="form-success" class="form-feedback form-success" style="display:none;">
+            ✅ Email client opened! Your message is ready to send.
+          </div>
+        </div>
+
+        <!-- Sleek, minimal page finish -->
+        <div class="contact-footer">
+          © 2026 Bhavesh Sharma &nbsp;·&nbsp; AI/ML Engineer
+        </div>
+
+      </div>
+    </section>
+
+  </div><!-- /content -->
+
+
+
+  <!-- ═══════════════ FULLSCREEN VIDEO MODAL ═══════════════ -->
+  <div id="video-modal" class="video-modal" aria-hidden="true">
+    <button class="modal-back-btn" id="modal-back-btn" aria-label="Go Back">← Back</button>
+    <div class="modal-content">
+      <video id="modal-video" src="resume_analyzer_automation.mp4" controls playsinline></video>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════
+       JAVASCRIPT
+  ═══════════════════════════════════════════ -->
+  <script src="js/three-bg.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
